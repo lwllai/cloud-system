@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String sayHello(){
         System.out.println("Hello springboot");
         return "hello,this is a springboot demo！~";
